@@ -21,12 +21,12 @@ I have made a simple caching mechanism. On the intial render it downloads the im
 I have used check to know if user has reached the end of list. If so then called the api.
 
 
-**Modules Used**
+**Modules Used:**
 
 
 * react-native-responsive-screen
 
-To simply convert height/width percentage to Density pixel.(To easily create responsiveness)
+To simply convert height/width percentage to Density pixel.
 
 * expo-crypto
 
