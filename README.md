@@ -13,12 +13,12 @@
 
 **Caching Mechanism**
 
-I have made a simple caching mechanism. On the intial render it downloads the image to user local filesystem which is hashed using SHA256 and on next renders it checks if the image is present in the filesystem it shows it directly else it downloads it.
+A simple caching mechanism. On the intial render, it downloads the image to user local filesystem which is hashed using SHA256 and on next renders it checks if the image is present in the filesystem it shows it directly else it downloads it.
 
 
 **Infinity Scroll**
 
-I have used check to know if user has reached the end of list. If so then called the api.
+Conditional checking for identifying the end of list. If so then called the api.
 
 
 **Modules Used:**
