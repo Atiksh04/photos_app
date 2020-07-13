@@ -9,17 +9,18 @@ export default function App() {
    const [loaded] = useFonts({
       Raleway: require('./assets/Raleway-Regular.ttf'),
     })
-  if(!loaded)
-    return (<AppLoading/>)
-  else{
-  return (
-    <SafeAreaProvider>
-    <SafeAreaView style={styles.container}>
-      <Home/>
-    </SafeAreaView>
-  </SafeAreaProvider>
+    if(!loaded)
+      return (<AppLoading/>)
+    else{
+    return (
+      <SafeAreaProvider>
+      <SafeAreaView style={styles.container}>
+        <Home/>
+      </SafeAreaView>
+    </SafeAreaProvider>
   )}
 }
+
 
 const styles = StyleSheet.create({
   container: {
@@ -27,4 +28,4 @@ const styles = StyleSheet.create({
     backgroundColor: '#0c5945',
     fontFamily:'Raleway'
   }
-});
+})
